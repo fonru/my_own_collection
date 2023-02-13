@@ -1,0 +1,6 @@
+---
+- name: Create file
+  my_own_module:
+    path: "{{ default_path }}"
+    content: "{{ default_content }}"
+  
